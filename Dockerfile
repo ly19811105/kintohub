@@ -14,6 +14,6 @@ RUN mkdir -p /usr/internet/
 ADD install-release.sh /usr/internet/install-release.sh
 RUN chmod +x /usr/internet/install-release.sh
 
-EXPOSE 8888
+EXPOSE 28811
 
 CMD ["bash", "/usr/internet/install-release.sh"]
