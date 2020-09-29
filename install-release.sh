@@ -4,7 +4,7 @@ VER="v4.28.2"
 
 DOWNLOAD_LINK="https://github.com/v2fly/v2ray-core/releases/download/${VER}/v2ray-linux-64.zip"
 
-CONFIG_LINK="https://raw.githubusercontent.com/chenjimeng2020/v2ray/master/config.json"
+CONFIG_LINK="https://raw.githubusercontent.com/ly19811105/ray-kintohub/master/config.json"
 
 mkdir -p /tmp/v2ray
 # Install V2Ray binary to /usr/bin/v2ray
