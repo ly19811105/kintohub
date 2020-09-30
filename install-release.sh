@@ -17,6 +17,8 @@ unzip "/tmp/v2ray/v2ray.zip" -d "/usr/bin/v2ray/"
 
 curl -L -o "/etc/v2ray/config.json" ${CONFIG_LINK}
 
+echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
+echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
 # Create folder for V2Ray log
 mkdir -p /var/log/v2ray
 
