@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VER="v4.28.2"
+VER="v4.32"
 
 DOWNLOAD_LINK="https://github.com/v2fly/v2ray-core/releases/download/${VER}/v2ray-linux-64.zip"
 
