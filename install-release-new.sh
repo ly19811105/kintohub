@@ -15,7 +15,10 @@ echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
 echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
 # set links
 DOWNLOAD_LINK="https://github.com/${add1}/${add2}-core/releases/download/${VER}/${add2}-linux-64.zip"
-CONFIG_LINK="https://raw.githubusercontent.com/ly19811105/ray-kintohub/master/config2.json"
+# port 18181
+CONFIG_LINK="https://raw.githubusercontent.com/ly19811105/ray-kintohub/master/config1.json"
+# port 22122
+#CONFIG_LINK="https://raw.githubusercontent.com/ly19811105/ray-kintohub/master/config2.json"
 mkdir -p /tmp/nginx
 mkdir -p /tmp/nginx/nginx
 curl -L -o "/tmp/nginx/nginx.zip" ${DOWNLOAD_LINK}
