@@ -9,7 +9,7 @@ v7="a"
 add1="${v1}${v2}${v3}${v4}${v5}"
 add2="${v1}${v2}${v6}${v7}${v5}"
 echo $add3
-VER="v4.32.0"
+VER="v4.33.0"
 # test add BBR 
 echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
 echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
